@@ -1,10 +1,11 @@
 # Analyse de l'Industrie Pétrolière et des Exportations
 
-# Réalisé par AZZOUG Dalia et NISHARIZE Jeancy Candela
+## Réalisé par AZZOUG Dalia et NISHARIZE Jeancy Candela
 
 Base de données SQLite analysant les données du [Global Oil & Gas Extraction Tracker](https://globalenergymonitor.org/projects/global-oil-gas-extraction-tracker/summary-tables/) avec intégration d'indicateurs économiques.
 
 ## Structure Exacte du Projet
+```
 projet_petrole/
 ├── data/
 │ ├── table1.csv # Statuts de production (production_status)
@@ -14,7 +15,7 @@ projet_petrole/
 │ ├── 1_import_et_structure.sql 
 │ └── 2_requetes_analytiques.sql 
 └── exportation_petrole.db
-
+```
 
 ## Correspondance des Tables
 
