@@ -2,8 +2,6 @@
 
 # Réalisé par AZZOUG Dalia et NISHARIZE Jeancy Candela
 
-![Pétrole](https://img.icons8.com/color/96/000000/crude-oil.png)
-
 Base de données SQLite analysant les données du [Global Oil & Gas Extraction Tracker](https://globalenergymonitor.org/projects/global-oil-gas-extraction-tracker/summary-tables/) avec intégration d'indicateurs économiques.
 
 ## Structure Exacte du Projet
