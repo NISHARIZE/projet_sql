@@ -5,7 +5,8 @@ FICHIER : 2_requetes_analytiques.sql
 
 -- ====================== CONFIGURATION ======================
 .headers ON
-.mode box
+.mode html
+.output rapport_analyse_petrole.html
 .nullvalue NULL
 
 -- ====================== 1. PRODUCTION PAR RÉGION ======================
@@ -90,3 +91,5 @@ SELECT '*** TOP 5 RÉGIONS OFFSHORE ***' AS titre;
 SELECT sub_region, offshore 
 FROM high_offshore_regions
 LIMIT 5;
+-- ====================== FIN EXPORT ======================
+.output stdout

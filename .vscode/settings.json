@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "exportation_petrole",
+            "group": "SQLite",
+            "database": "exportation_petrole.db"
+        }
+    ]
+}
